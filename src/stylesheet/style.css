@@ -448,7 +448,7 @@ body{
     position: absolute;
     right: 20px;
     top: 12px;
-    color: #fff;
+    color: rgb(216, 23, 23);
   }
   
   .rmdb-searchbar-input {
