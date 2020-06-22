@@ -5,8 +5,6 @@
 
 React Movie Search is a fully responsive [React](http://facebook.github.io/react/index.html) project that loads Movies data via [The Movie Database (TMDb) API](https://www.themoviedb.org/documentation/api). 
 
-![](https://github.com/Johntizy/react_tmdb/blob/master/src/stylesheet/2020-06-22-10-58-59.flv)
-
 ## Demo
 [React Movie - Live DEMO](https://tvmoove.herokuapp.com)
 
