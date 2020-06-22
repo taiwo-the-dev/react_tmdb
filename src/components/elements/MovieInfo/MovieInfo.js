@@ -17,15 +17,15 @@ const MovieInfo = (props) =>{
                     />
                 </div>
                     <div className="rmdb-movieinfo-text">
-                        <h1>{props.movie.original_title}</h1>
-                        <h3>PLOT</h3>
+                        <h3>{props.movie.original_title}</h3>
+                        <h4>PLOT</h4>
                         <p>{props.movie.overview}</p>
-                        <h3>IMDB RATING</h3>
+                        <h4>IMDB RATING</h4>
                         <div className="rmdb-rating">
                             <meter min="0" max="100" optimum="100" low="40" high="70" value={props.movie.vote_average * 10}></meter>
                             <p className="rmdb-score">{props.movie.vote_average}</p>
                         </div>
-                        {props.directors.length > 1 ? <h3>DIRECTORS</h3> : <h3>DIRECTOR</h3>}
+                        {props.directors.length > 1 ? <h4>DIRECTORS</h4> : <h4>DIRECTOR</h4>}
                         {props.directors.map((element, index) => {
                             return <p key={index} className="rmdb-director">{element.name}</p>
                         })}

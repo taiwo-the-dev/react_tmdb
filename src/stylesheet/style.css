@@ -250,22 +250,30 @@ body{
     left: 360px;
   }
   
-  .rmdb-movieinfo-text h1 {
+  .rmdb-movieinfo-text h3 {
     font-family: 'Abel', sans-serif;
     font-size:48px;
     margin: 0;
   }
-  
-  .rmdb-movieinfo-text h3 {
+
+  @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .rmdb-movieinfo-text h3 {
+      font-size:38px;
+      margin: 0;
+    }
+  }
+
+  .rmdb-movieinfo-text h4 {
     font-size: 16px;
     line-height: 0;
-    margin-top: 30px;
+    margin-top: 20px;
   }
   
   .rmdb-movieinfo-text p {
     font-family: 'Abel', sans-serif;
     font-size: 18px;
-    line-height: 26px;
+    line-height: 22px;
   }
   
   .rmdb-rating {
@@ -358,20 +366,14 @@ body{
   
   @media only screen and (max-width: 768px) {
     /* For mobile phones: */
-    .fa-budget{
+    .fa-budget, .fa-time, .fa-revenue{
       display: none;
     }
   }
   @media only screen and (max-width: 768px) {
     /* For mobile phones: */
-    .fa-time{
-      display: none;
-    }
-  }
-  @media only screen and (max-width: 768px) {
-    /* For mobile phones: */
-    .fa-revenue{
-      display: none;
+    .rmdb-movieinfobar {
+      font-size: 15px;
     }
   }
   .rmdb-moviethumb img {
@@ -410,7 +412,7 @@ body{
   
   .rmdb-navigation-content p {
     font-family: 'Abel', sans-serif;
-    font-size: 22px;
+    font-size: 20px;
     float: left;
     color: #fff;
     padding-right: 10px;

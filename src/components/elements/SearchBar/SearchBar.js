@@ -27,7 +27,10 @@ class SearchBar extends Component {
                     <FontAwesome className="rmdb-fa-search" name="search" size="2x" />
                     <input type="text" className="rmdb-searchbar-input" placeholder="Search" 
                             onChange={this.doSearch} value={this.state.value} />
-                    <FontAwesome className="rmdb-fa-cancel" name="close" size="2x" onClick={this.cancelSearch} />
+                    {
+                        this.state.value ? <FontAwesome className="rmdb-fa-cancel" name="close" size="2x" onClick={this.cancelSearch} /> : null
+                    }
+                    
                 </div>
             </div>
          );
