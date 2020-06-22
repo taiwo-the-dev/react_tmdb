@@ -1,6 +1,6 @@
 # React Movie Search
-[![GitHub stars](https://img.shields.io/github/stars/Johntizy/react-tmdb.svg?style=flat-square)](https://github.com/Johntizy/react-tmdb/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/Johntizy/react-tmdb.svg?style=flat-square)](https://github.com/Johntizy/react-tmdb/network)
+[![GitHub stars](https://img.shields.io/github/stars/Johntizy/react_tmdb.svg?style=flat-square)](https://github.com/Johntizy/react-tmdb/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/Johntizy/react_tmdb.svg?style=flat-square)](https://github.com/Johntizy/react-tmdb/network)
 [![Mentioned in Awesome React](https://awesome.re/mentioned-badge.svg)](https://github.com/enaqx/awesome-react)
 
 React Movie Search is a fully responsive [React](http://facebook.github.io/react/index.html) project that loads Movies data via [The Movie Database (TMDb) API](https://www.themoviedb.org/documentation/api). 
