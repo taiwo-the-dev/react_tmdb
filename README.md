@@ -16,7 +16,7 @@ If you would like to download the code and try it for yourself:
 1. Fork the repo: `https://github.com/Johntizy/react_tmdb.git`
 2. Download the forked repo
 2. `cd react-tmdb`
-2. Install packages: `npm install react-fontawesome`
+2. Install packages: `npm install`
 3. launch project: `npm start`
 4. Open your browser at: `http://localhost:3000`
 
